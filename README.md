@@ -1,78 +1,145 @@
-# Jekyll-Bootstrap
+Introduction
+============
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+**AdminLTE** -- is a fully responsive admin template. Based on **Bootstrap 3** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself. 
 
-## Usage
+**Download & Preview on [Almsaeed Studio](http://almsaeedstudio.com)**
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
-
-## Version
-
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Milestones
-
-[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
-
-### GOALS
-
-* No open PRs against master branch.
-* Squash some bugs.
-* Add some new features (low-hanging fruit).
-* Establish social media presence.
+Looking for Premium Templates?
+------------------------------
+**Almsaeed studio just opened a new premium templates page. Hand picked to insure the best quality and the most affordable prices. Visit http://almsaeedstudio.com/premium for more information.**
 
 
-### Bugs
+!["AdminLTE Presentation"] (http://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
 
-|Bug |Description
-|------|---------------
-|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
-|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
-|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
-|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
+**AdminLTE** has been carefully coded with clear comments in all of its JS, LESS and HTML files. LESS has been used to increase code customizability.
 
-### Features
+Installation
+------------
+There are multiple ways to install AdminLTE.
 
-|Bug |Description
-|------|---------------
-|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
-|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
-|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
-|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
+####Download:
 
-### TODOS
+Download from Github or [visit Almsaeed Studio](http://almsaeedstudio.com) and download the lateset release.
 
-Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
+####Using The Command Line:
 
-* Create twitter account. Add link / icon on jekyllbootstrap.com.
-* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
-* Announce state of project, announce roadmap(s), announce new versions as they’re released.
+**Github**
 
-## Contributing
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine 
+```
+git clone https://github.com/YOUR_USERNAME/AdminLTE.git"
+```
 
+**Bower**
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
+```
+bower install git://github.com/almasaeed2010/AdminLTE.git
+```
 
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+**Composer**
 
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+```
+composer require "almasaeed2010/adminlte=~2.0"
+```
 
-**Jekyll-Bootstrap Documentation Website.**
+Documentation
+-------------
+Visit the [online documentation](http://almsaeedstudio.com/themes/AdminLTE/documentation/index.html) for the most
+updated guide. Information will be added on a weekly basis.
 
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+Browser Support
+---------------
+- IE 9+
+- Firefox (latest)
+- Chrome (latest)
+- Safari (latest)
+- Opera (latest)
 
+Contribution
+------------
+Contribution are always **welcome and recommended**! Here is how:
 
-## License
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/AdminLTE.git"
+- Make your changes
+- Create a pull request
 
-[MIT](http://opensource.org/licenses/MIT)
+#### Contribution Requirements:
+
+- When you contribute, you agree to give a non-exclusive license to Almsaeed Studio to use that contribution in any context as we (Almsaeed Studio) see appropriate.
+- If you use content provided by another party, it must be appropriately licensed using an [open source](http://opensource.org/licenses) license.
+- Contributions are only accepted through Github pull requests.
+- Finally, contributed code must work in all supported browsers (see above for browser support).
+
+License
+-------
+AdminLTE is an open source project by [Almsaeed Studio](http://almsaeedstudio.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Almsaeed Studio
+reserves the right to change the license of future releases.
+
+Legacy Realeases
+----------------
+AdminLTE 1.x can be easily upgraded to 2.x using [this guide](http://almsaeedstudio.com/themes/AdminLTE/documentation/index.html#browsers), but if you intend to keep using AdminLTE 1.x, you can download the latest release from the [releases](https://github.com/almasaeed2010/AdminLTE/releases) section above.
+
+Change log
+----------
+**v2.0:**
+
+- Major layout bug fixes
+- Change in layout mark up
+- Added transitions to the sidebar
+- New skins and modified previous skins
+- Change in color scheme to a more complementing scheme 
+- Added footer support
+- Removed pace.js from the main app.js
+- Added support for collapsed sidebar as an initial state (add .sidebar-collapse to the body tag)
+- Added boxed layout (.layout-boxed)
+- Enhanced consistency in padding and margining
+- Updated Bootstrap to 3.3.2 
+- Fixed navbar dropdown menu on small screens positioning issues.
+- Updated Ion Icons to 2.0.0
+- Updated FontAwesome to 4.3.0
+- Added ChartJS 1.0.1
+- Removed iCheck dependency
+- Created Dashboard 2.0
+- Created new Chat widget (DirectChat)
+- Added transitions to DirectChat
+- Added contacts pane to DirectChat
+- Changed .right-side to .content-wrapper
+- Changed .navbar-right to .navbar-custom-menu
+- Removed unused files
+- Updated lockscreen style (HTML markup changed!)
+- Updated Login & Registration pages (HTML markup changed!)
+- Updated buttons style.
+- Enhanced border-radius consistency
+- Added mailbox: inbox, read, and compose pages
+- Bootstrap & jQuery are now hosted locally
+- Created documentation.
+
+**ver 1.2:**
+
+- Fixed the sidebar scroll issue when using the fixed layout.
+- Added [Bootstrap Social Buttons](http://lipis.github.io/bootstrap-social/ "Bootstrap Social") plugin.
+- Fixed RequireJS bug. Thanks to [StaticSphere](https://github.com/StaticSphere "github user"). 
+
+**ver 1.1:**
+
+- Added new skin. class: .skin-black
+- Added [pace](http://github.hubspot.com/pace/docs/welcome/ "pace") plugin.
+
+Image Credits
+-------------
+[Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
+
+[Graphicsfuel](http://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
+
+[Pickaface](http://pickaface.net/)
+
+[Unsplash](https://unsplash.com/)
+
+Donations
+---------
+Donations are **greatly appreciated!**
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")
